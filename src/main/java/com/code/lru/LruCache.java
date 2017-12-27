@@ -3,6 +3,7 @@ package com.code.lru;
 import java.util.HashMap;
 import java.util.Map;
 
+//Not thread safe.
 public class LruCache {
 
     class LinkedNode {
